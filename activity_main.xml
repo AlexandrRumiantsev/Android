@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.calkkg.MainActivity">
+
+    <EditText
+        android:id="@+id/rost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rost"
+        android:hint="@string/num3"
+        tools:ignore="NotSibling,UnknownId" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rost"
+        android:hint="Ваше имя"
+        tools:ignore="NotSibling"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="fill_parent"
+        android:layout_height="20pt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/man"
+        android:layout_marginTop="58dp"
+        android:text="Результат расчётов"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <Button
+        android:id="@+id/man"
+        android:layout_width="40pt"
+        android:layout_height="30pt"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/name"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/man"
+        android:text="Муж"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="183dp" />
+    android:textSize="20pt"/>
+
+    <Button
+        android:id="@+id/woman"
+        android:layout_width="40pt"
+        android:layout_height="30pt"
+        android:layout_alignBottom="@+id/man"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/man"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/woman"
+        android:text="Жен"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="183dp" /><![CDATA[
+    android:textSize="20pt"/>
+
+    android:textSize="20pt"/>
+
+]]>
+</RelativeLayout>
+
+
+
+
